@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tutorial 2</title>
+<body>
+<p>1.Create a HTML page that displays the exact same output.Make sure you stick to standards, for example the &ltbr/&gt tag should be closed.Also check whether your tags are paired,for example there should be one &ltp&gt tag for every &ltp&gt tag </p>
+<p><strong>2.This note in bold</strong></p>
+<p style="text-align: center;">3.This is the first centered paragraph.</p>
+<p style="text-align: left;">4.This is the second paragraph.It appears on the left.</p>
+<p style="text-align: right;">5.This is the third paragraph.It appears on the right.</p>
+<p><strong>6.This is a level 3 heading.</strong></p>
+<p style="font-size: small; text-align: right;"><strong>7.This is a level 5 heading.</strong></p>
+<p>8.Below is a horizontal line with 50% width with respect to the browser width.</p>
+<hr style="width: 50%;">
+<p>9.Below is a horizontal line which is 100 pixels wide.</p>
+<hr style="width: 100px;"
+<p><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQqUTg07agau0XZ199aZ4OzFfM35uj7AXmdZkZdTOXQuKO5cpQc" alt="Girl in a jacket" width="500px" style="float: right;"></p>
+<p>10.Now this is a little tough.The is image is displayed on the right side and the the text is displayed on the left side.This is done using the "img" tag here,but you can use other methods to achieve the same output.The image has to be 500 pixels wide.</p>
+<a href="https://www.google.com/">11.Click here to go to Google</a>
+<p>12. Lists:</p>
+<ol start="A" type="A">
+  <li>Item 1</li>
+  <li>Item 2</li>
+<ol start="I" type="I">
+<li>Item 2.1</li>
+<li>Item 2.2</li>
+<li><ol start="1" type="1">
+<li>Item 2.3.1</li>
+<li>Item 2.3.2</li>
+<li>Item 2.3.3</li>
+</ol>
+</li>
+</ol>
+</ol>
+<ul type="disc">
+  <li>Item 1</li>
+  <li>Item 2</li>
+<ul type="circle">
+<li>Item 2.1</li>
+<li>Item 2.2</li>
+<li><ul type="disc">
+<li>Item 2.3.1</li>
+<li>Item 2.3.2</li>
+<li>Item 2.3.3</li>
+</ul>
+</li>
+</ul>
+</ul>
+<p>13.K<sub>2</sub>SO<sub>4</sub>.Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>.24H<sub>2</sub>O</p>
+<p><pre>       14.           This 
+                                entire 
+                                           line
+                          is
+                                written
+                                      without     using
+                     any
+                                      special
+                     character. Only one
+                                          tag
+                     can help do this.</p></pre>
+<p><p style="font-family: Times, serif; font-size: 30px;">15.This is written using the font "times" and is 30 pixels big.</p>
+<p>16.Simple-table</p>
+<style>
+        table {
+          border-collapse: collapse;
+          border: 4px double black;
+        }
+        th, td {
+          border: 2px double black;
+          padding: 10px;
+        }
+      </style>
+      
+    <table>
+        <tr>
+          <th>Column 1</th>
+          <th>Column 2</th>
+        </tr>
+        <tr>
+          <td>1.1</td>
+          <td>1.2</td>
+          
+        </tr>
+        <tr>
+          <td>2.1</td>
+          <td>2.2</td>
+        </tr>
+      </table>
+</table>
+<p>17.Weird Table</p>
+<style>
+    table {
+      border-collapse: collapse;
+      border: 4px double black;
+    }
+    th, td {
+      border: 2px double black;
+      padding: 10px;
+    }
+    th:nth-child(3),
+    td:nth-child(3) {
+      background-color: black;
+      color: white;
+    }
+</style>
+
+<table>
+    <tr>
+      <th rowspan="2"><b>something</b></th>
+      <th><b>something else</b></th>
+      <th><b>no idea</b></th>
+    </tr>
+    <tr>
+      <td colspan="2"><b>its morbin time</b></td>
+    </tr>
+  </table>
+<style>
+.hr-red {
+  border-top: 2px solid red;
+  background-color: red;
+  height: 20px;
+  margin: 20px 0;
+}
+.hr-red::before {
+  content: "18.Add some colors! This line has a red background and white foreground.";
+  display: inline-block;
+  padding: 0 5px;
+  position: left;
+  top: -0.5em;
+  background-color: red;
+  color: white;
+}
+</style>
+<hr class="hr-red">
+
+
+</body>
+</html>
